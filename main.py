@@ -3,9 +3,10 @@ from twilio.rest import Client
 import requests
 
 ENDPOINT = "https://api.openweathermap.org/data/3.0/onecall"
-API_KEY = "5cf2cba26e859c52c311279f12dd76b0"
-account_sid = "ACfa57a75e7d9739450f3f891d8c0fe05b"
-auth_token = "7cc7a38abc55e1c1b3d38bd1746c6502"
+# create a twilio account to obtain the credentials below
+API_KEY = "**************************"
+account_sid = "***************************"
+auth_token = "*********************************"
 
 PARAMS = {
     "lat": -4.441931,
